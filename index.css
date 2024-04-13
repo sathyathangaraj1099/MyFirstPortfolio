@@ -23,7 +23,10 @@
     color: #323f4b;
     font-family: "Roboto";
 }
-
+.navbar {
+    background-color: #bf66e5;
+    margin: 0px;
+}
 .header-container {
     display: flex;
     flex-direction: row;
@@ -35,7 +38,12 @@
     background-color: #bf66e5;
     color: white;
 }
-
+.header {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    margin: 0px;
+}
 .header-list {
     list-style-type: none;
     display: flex;
